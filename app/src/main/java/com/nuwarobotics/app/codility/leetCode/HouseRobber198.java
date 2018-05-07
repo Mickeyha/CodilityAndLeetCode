@@ -3,7 +3,7 @@ package com.nuwarobotics.app.codility.leetCode;
 import android.util.Log;
 
 /**
- * Created by nuwa on 2018/5/2.
+ * Created by Mikihaha on 2018/5/2.
  */
 
 public class HouseRobber198 {

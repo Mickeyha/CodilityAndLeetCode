@@ -1,7 +1,7 @@
 package com.nuwarobotics.app.codility.codility;
 
 /**
- * Created by nuwa on 2018/5/3.
+ * Created by Mikihaha on 2018/5/3.
  */
 
 public class OddOccurrencesInArray {

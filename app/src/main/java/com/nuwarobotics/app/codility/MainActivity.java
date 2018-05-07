@@ -5,7 +5,14 @@ import android.os.Bundle;
 import android.util.Log;
 import android.widget.TextView;
 
+import com.nuwarobotics.app.codility.codility.FrogJmp;
+import com.nuwarobotics.app.codility.codility.FrogRiverOne;
+import com.nuwarobotics.app.codility.codility.MaxCounters;
+import com.nuwarobotics.app.codility.codility.MissingInteger;
 import com.nuwarobotics.app.codility.codility.OddOccurrencesInArray;
+import com.nuwarobotics.app.codility.codility.PermCheck;
+import com.nuwarobotics.app.codility.codility.PermMissingElem;
+import com.nuwarobotics.app.codility.codility.TapeEquilibrium;
 import com.nuwarobotics.app.codility.leetCode.CountingBits338;
 import com.nuwarobotics.app.codility.leetCode.HouseRobber198;
 
@@ -24,7 +31,17 @@ public class MainActivity extends AppCompatActivity {
 //        solution(new int[]{1,2,3,4},9);
 //        Log.e(TAG, "rob: " + HouseRobber198.rob(new int[]{1,2,3,1}));
 //        Log.e(TAG, "countBits: " + CountingBits338.countBits(5));
-        Log.e(TAG, "OddOccurrencesInArray: " + OddOccurrencesInArray.solution(new int[]{9,3,9,3,9,7,9}));
+//        Log.e(TAG, "OddOccurrencesInArray: " + OddOccurrencesInArray.solution(new int[]{9,3,9,3,9,7,9}));
+//        Log.e(TAG, "PermMissingElem: " + PermMissingElem.solution(new int[]{2,3,1,5}));
+//        Log.e(TAG, "FrogJmp: " + FrogJmp.solution(10,85,30));
+//        Log.e(TAG, "TapeEquilibrium: " + TapeEquilibrium.solution(new int[]{3,1,2,4,3}));
+//        Log.e(TAG, "PermCheck: " + PermCheck.solution(new int[]{3,1,2,4}));
+//        Log.e(TAG, "PermCheck: " + PermCheck.solution(new int[]{3,1,4}));
+//        Log.e(TAG, "FrogRiverOne: " + FrogRiverOne.solution(5, new int[]{1,3,1,4,2,3,5,4}));
+//        Log.e(TAG, "FrogRiverOne: " + FrogRiverOne.solution(1, new int[]{0}));
+//        Log.e(TAG, "MissingInteger: " + MissingInteger.solution(new int[]{1,3,6,4,1,2}));
+//        Log.e(TAG, "MissingInteger: " + MissingInteger.solution(new int[]{1,2,3}));
+        Log.e(TAG, "MaxCounters: " + MaxCounters.solution(5, new int[]{3,4,4,6,1,4,4}));
     }
 
     public int[] solution(int[] A, int K) {
