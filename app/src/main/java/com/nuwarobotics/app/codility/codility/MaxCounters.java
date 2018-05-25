@@ -13,6 +13,7 @@ public class MaxCounters {
 
     public static int[] solution(int N, int[] A) {
 
+<<<<<<< HEAD
     /*
     *
     *
@@ -59,6 +60,8 @@ public class MaxCounters {
     *
     *
     * */
+=======
+>>>>>>> update some topic
         int counter[] = new int[N];   //counter0 ~ counterN-1
         Arrays.fill(counter,0);
         int max = 0;
@@ -72,6 +75,7 @@ public class MaxCounters {
             }
         }
 
+<<<<<<< HEAD
 
 
         // print answer array
@@ -81,5 +85,11 @@ public class MaxCounters {
 
 
         return answer;
+=======
+        for (int i = 0; i < counter.length ; i++) {
+            Log.d(TAG, "solution: counter[" + i + "]\t" + counter[i]);
+        }
+        return counter;
+>>>>>>> update some topic
     }
 }
