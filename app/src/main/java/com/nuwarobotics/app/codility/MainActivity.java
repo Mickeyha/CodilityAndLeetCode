@@ -10,6 +10,7 @@ import com.nuwarobotics.app.codility.codility.FrogRiverOne;
 import com.nuwarobotics.app.codility.codility.MaxCounters;
 import com.nuwarobotics.app.codility.codility.MissingInteger;
 import com.nuwarobotics.app.codility.codility.OddOccurrencesInArray;
+import com.nuwarobotics.app.codility.codility.PassingCars;
 import com.nuwarobotics.app.codility.codility.PermCheck;
 import com.nuwarobotics.app.codility.codility.PermMissingElem;
 import com.nuwarobotics.app.codility.codility.TapeEquilibrium;
@@ -41,7 +42,8 @@ public class MainActivity extends AppCompatActivity {
 //        Log.e(TAG, "FrogRiverOne: " + FrogRiverOne.solution(1, new int[]{0}));
 //        Log.e(TAG, "MissingInteger: " + MissingInteger.solution(new int[]{1,3,6,4,1,2}));
 //        Log.e(TAG, "MissingInteger: " + MissingInteger.solution(new int[]{1,2,3}));
-        Log.e(TAG, "MaxCounters: " + MaxCounters.solution(5, new int[]{3,4,4,6,1,4,4}));
+//        Log.e(TAG, "MaxCounters: " + MaxCounters.solution(5, new int[]{3,4,4,6,1,4,4}));
+        Log.e(TAG, "PassingCars: " + PassingCars.solution(new int[]{0,1,0,1,1}));
     }
 
     public int[] solution(int[] A, int K) {
