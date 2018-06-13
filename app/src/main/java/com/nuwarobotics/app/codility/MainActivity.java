@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.widget.TextView;
 
+import com.nuwarobotics.app.codility.codility.Exam2P3Q;
 import com.nuwarobotics.app.codility.codility.FrogJmp;
 import com.nuwarobotics.app.codility.codility.FrogRiverOne;
 import com.nuwarobotics.app.codility.codility.MaxCounters;
@@ -43,7 +44,8 @@ public class MainActivity extends AppCompatActivity {
 //        Log.e(TAG, "MissingInteger: " + MissingInteger.solution(new int[]{1,3,6,4,1,2}));
 //        Log.e(TAG, "MissingInteger: " + MissingInteger.solution(new int[]{1,2,3}));
 //        Log.e(TAG, "MaxCounters: " + MaxCounters.solution(5, new int[]{3,4,4,6,1,4,4}));
-        Log.e(TAG, "PassingCars: " + PassingCars.solution(new int[]{0,1,0,1,1}));
+//        Log.e(TAG, "PassingCars: " + PassingCars.solution(new int[]{0,1,0,1,1}));
+        Log.e(TAG, "Exam2P3Q: " + Exam2P3Q.solution(10));
     }
 
     public int[] solution(int[] A, int K) {
