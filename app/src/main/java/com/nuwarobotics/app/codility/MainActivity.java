@@ -5,18 +5,9 @@ import android.os.Bundle;
 import android.util.Log;
 import android.widget.TextView;
 
-import com.nuwarobotics.app.codility.codility.Exam2P3Q;
-import com.nuwarobotics.app.codility.codility.FrogJmp;
-import com.nuwarobotics.app.codility.codility.FrogRiverOne;
-import com.nuwarobotics.app.codility.codility.MaxCounters;
-import com.nuwarobotics.app.codility.codility.MissingInteger;
-import com.nuwarobotics.app.codility.codility.OddOccurrencesInArray;
-import com.nuwarobotics.app.codility.codility.PassingCars;
-import com.nuwarobotics.app.codility.codility.PermCheck;
-import com.nuwarobotics.app.codility.codility.PermMissingElem;
-import com.nuwarobotics.app.codility.codility.TapeEquilibrium;
-import com.nuwarobotics.app.codility.leetCode.CountingBits338;
-import com.nuwarobotics.app.codility.leetCode.HouseRobber198;
+import com.nuwarobotics.app.codility.leetCode.practice2019.AddTwoNumbers2;
+import com.nuwarobotics.app.codility.leetCode.practice2019.util.ListNode;
+import com.nuwarobotics.app.codility.leetCode.practice2019.TwoSum1;
 
 public class MainActivity extends AppCompatActivity {
     public static final String TAG = MainActivity.class.getName();
@@ -45,7 +36,27 @@ public class MainActivity extends AppCompatActivity {
 //        Log.e(TAG, "MissingInteger: " + MissingInteger.solution(new int[]{1,2,3}));
 //        Log.e(TAG, "MaxCounters: " + MaxCounters.solution(5, new int[]{3,4,4,6,1,4,4}));
 //        Log.e(TAG, "PassingCars: " + PassingCars.solution(new int[]{0,1,0,1,1}));
-        Log.e(TAG, "Exam2P3Q: " + Exam2P3Q.solution(10));
+//        Log.e(TAG, "Exam2P3Q: " + Exam2P3Q.solution(10));
+//        Log.e(TAG, "TwoSun1: " + TwoSum1.twoSum(new int[]{2, 7, 11, 15}, 9));
+
+
+        // +++ AddTwoNumber
+        ListNode l1 = new ListNode(2);
+        l1.next = new ListNode(4);
+        l1.next.next = new ListNode(3);
+
+        ListNode l2 = new ListNode(5);
+        l2.next = new ListNode(6);
+        l2.next.next = new ListNode(4);
+
+        ListNode ans = AddTwoNumbers2.addTwoNumbers(l1, l2);
+        while (ans != null) {
+            Log.d(TAG, "ans = " + ans.val);
+            ans = ans.next;
+        }
+        // --- AddTwoNumber
+
+        TwoSum1.twoSum(new int[]{2, 7, 11, 15}, 9);
     }
 
     public int[] solution(int[] A, int K) {
