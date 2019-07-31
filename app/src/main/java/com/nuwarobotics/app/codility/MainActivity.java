@@ -6,8 +6,11 @@ import android.util.Log;
 import android.widget.TextView;
 
 import com.nuwarobotics.app.codility.leetCode.practice2019.AddTwoNumbers2;
+import com.nuwarobotics.app.codility.leetCode.practice2019.LengthOfLongestSubstring3;
+import com.nuwarobotics.app.codility.leetCode.practice2019.tree.BinaryTreeInorderTraversal94;
 import com.nuwarobotics.app.codility.leetCode.practice2019.util.ListNode;
 import com.nuwarobotics.app.codility.leetCode.practice2019.TwoSum1;
+import com.nuwarobotics.app.codility.leetCode.practice2019.util.TreeNode;
 
 public class MainActivity extends AppCompatActivity {
     public static final String TAG = MainActivity.class.getName();
@@ -51,12 +54,31 @@ public class MainActivity extends AppCompatActivity {
 
         ListNode ans = AddTwoNumbers2.addTwoNumbers(l1, l2);
         while (ans != null) {
-            Log.d(TAG, "ans = " + ans.val);
+//            Log.d(TAG, "ans = " + ans.val);
             ans = ans.next;
         }
         // --- AddTwoNumber
 
+        int ans3 = LengthOfLongestSubstring3.lengthOfLongestSubstring("pwwkew");
+        Log.d(TAG, "ans = " + ans3);
+
+
         TwoSum1.twoSum(new int[]{2, 7, 11, 15}, 9);
+
+
+//        TreeNode root = new TreeNode(1);
+//        root.left = new TreeNode(2);
+//        root.right = new TreeNode(3);
+//        root.left.left = new TreeNode(4);
+//        root.left.right = new TreeNode(5);
+//        RangeSumofBST938.inorderTraversal(root);
+
+
+        TreeNode root94 = new TreeNode(1);
+        root94.left = null;
+        root94.right = new TreeNode(2);
+        root94.right.left = new TreeNode(3);
+        BinaryTreeInorderTraversal94.inorderTraversal(root94);
     }
 
     public int[] solution(int[] A, int K) {
